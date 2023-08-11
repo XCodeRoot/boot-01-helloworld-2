@@ -1,0 +1,42 @@
+person:
+  userName: zhangsan \n 李四
+  boos: true
+  birth: 2023/08/07 16:38:33
+  age: 20
+  #interests: [篮球,足球] 这是 Array 的行内写法
+  interest:
+    - 篮球
+    - 足球
+    - 18
+  #animal: [阿猫,阿狗] 这是 List 的行内写法
+  animal:
+    - 阿猫
+    - 阿狗
+  #score: {English: 80,Math: 90} 这是 Map 的行内写法
+  score :
+    english:
+      first: 30
+      second: 40
+      third: 50
+    math: [ 131,140,148 ]
+    chinese: { first: 128,second: 136 }
+  #salarys: [9999.98,9999.99] 这是 Set 的行内写法
+  salarys:
+    - 9999.98
+    - 9999.99
+  pet:
+    name: 阿狗
+    weight: 99.99
+
+  # Map<String, List<Pet>> allPets
+  allPets:
+    sick:
+      - {name: tom}
+      - {name: jerry,weight:47}
+    healthy: [{name: mario},{weight: 47}]
+
+
+spring:
+  banner:
+    image:
+      location: 222.jpg
